@@ -32,6 +32,6 @@
   "homepage": "https://siddharthmdps.github.io/pegasus",
   "scripts":{
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   }
 }
