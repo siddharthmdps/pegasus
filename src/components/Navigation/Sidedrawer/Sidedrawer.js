@@ -11,11 +11,11 @@ const sidedrawer = props => {
             <nav>
                 <ul>
                     <li onClick={props.showProfile}>Profile</li>
-                    <li>Applied Jobs</li>
-                    <li>Saved Jobs</li>
-                    <li>Recommended Jobs</li>
-                    <li>Settings</li>
-                    <li>Logout</li>
+                    <li onClick={props.showAJ}>Applied Jobs</li>
+                    <li onClick={props.showSJ}>Saved Jobs</li>
+                    <li onClick={props.showRJ}>Recommended Jobs</li>
+                    <li onClick={props.showSettings}>Settings</li>
+                    <li onClick={props.showLogout}>Logout</li>
                 </ul>
             </nav>
         </div>

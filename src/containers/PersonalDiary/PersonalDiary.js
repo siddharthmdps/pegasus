@@ -4,7 +4,7 @@ import classes from './PersonalDiary.module.css';
 
 const Optionlist = ['Siddharth Singh', 'Joshua Cheng Chee Yan', 'Min Marn Oo', 'Min San', 'Zhi Ting Chia', 'Lum Soon Keong'];
 
-class Profile extends Component{
+class PersonalDiary extends Component{
     state={
         active: '0'
     };
@@ -22,4 +22,4 @@ class Profile extends Component{
     }
 }
 
-export default Profile;
+export default PersonalDiary;
